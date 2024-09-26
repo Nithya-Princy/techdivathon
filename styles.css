@@ -1,0 +1,155 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+.header {
+    background: url('headerbg1.png') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.header h1 {
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+    color: #ecba08;
+    font-family: 'Sofadi One', cursive; /* Apply the Sofadi One font */
+}
+
+.header p {
+    color: #f9f7f7;
+    font-style: italic;
+}
+
+/* Section styling */
+.section {
+    background-color: #fff;
+    margin: 1rem;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+.section p {
+    font-size: 1rem;
+    color: #333;
+}
+/* About TechDivathon Section Styling */
+/* About TechDivathon Section Styling */
+/* About TechDivathon Section Styling */
+/* About TechDivathon Section Styling */
+.about-techdivathon {
+    display: flex;
+    align-items: stretch; /* Make both slogan and image the same height */
+    justify-content: space-between;
+    padding: 2rem; /* Padding inside the box */
+    gap: 2rem;
+    background-color: #f9f9f9; /* Light background color for the entire box */
+    border: 2px solid #ccc; /* Border around the whole section */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+}
+
+/* Slogan box styling */
+.about-details {
+    flex: 1; /* Flex-grow to fill available space */
+    text-align: center;
+    background: url('bg2.png') no-repeat center center/cover; /* Add background image */
+    padding: 2rem;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the slogan content vertically */
+}
+
+/* Styling the slogan lines */
+.slogan-line1 {
+    font-size: 2rem;
+    color: #ff6347; /* Tomato */
+    font-family: 'Sofadi One', cursive;
+    margin-bottom: 0.5rem;
+}
+
+.slogan-line2 {
+    font-size: 2.5rem;
+    color: #4169e1; /* Royal Blue */
+    font-family: 'Sofadi One', cursive;
+    margin-bottom: 0.5rem;
+}
+
+.slogan-line3 {
+    font-size: 2rem;
+    color: #ffd700; /* Gold */
+    font-family: 'Sofadi One', cursive;
+    margin-bottom: 1.5rem;
+}
+
+/* Registration link styling */
+.register-link {
+    font-size: 1.2rem;
+    color: #ff4500; /* Orange Red */
+    text-decoration: underline;
+}
+
+.register-link:hover {
+    color: #4169e1; /* Royal Blue on hover */
+    text-decoration: none;
+}
+
+/* Image styling */
+.about-image {
+    flex: 1; /* Flex-grow to fill available space */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Vertically center the image */
+}
+
+.about-image img {
+    max-width: 100%;
+    height: 100%; /* Make image fill the full height */
+    border-radius: 10px;
+    object-fit: cover; /* Maintain aspect ratio of the image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-techdivathon {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-details, .about-image {
+        flex: none;
+    }
+}
+
+
+
+
+/* Footer styling */
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
